@@ -1,0 +1,233 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  background-color: #d7d9dd;
+}
+
+body {
+  width: 1280px;
+  height: 2925px;
+  margin: auto;
+  background-color: white;
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: space-around;
+  align-content: center;
+  padding: 11px;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  height: 80px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    /*font-size: .5em;*/
+}
+
+#facebook {
+  font-size: 160%;
+  background-color: black;
+  margin-top: 5px;
+}
+
+.header-content {
+  /*display: flex;*/
+  background-image: url("../img/header-img.jpg");
+  height: 600px;
+  background-size: 150%;
+  background-position: 50% 100%;
+  /*background-attachment: fixed;*/
+}
+
+.main-heading {
+  font-size: 890%;
+  text-align: center;
+  font-family:'Josefin Sans';
+  padding-top: 160px;
+  margin-bottom: -4%;
+}
+
+.sub-heading {
+  font-family:'Dancing Script';
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  margin-top: -25px;
+  text-shadow: 2px 2px 4px black;
+}
+
+main {
+  background-color: #fafefc;
+  width: 1150px;
+  height: 2220px;
+  margin: -100px 65px 25px 65px;
+  box-shadow: 0px 3px 3px 3px grey;
+  padding-left: 130px;
+  padding-top: 70px;
+  display: flex;
+}
+
+.blog-row {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 2130px;
+  justify-content: flex-start;
+
+}
+
+.item {
+  box-shadow: 0px 1px 2px 1px grey;
+  width: 536px;
+  margin: auto;
+  padding: 15px;
+}
+
+.icon-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #cbc8be;
+  margin: -34px auto -20px auto;
+  text-align: center;
+}
+
+.fa {
+  background-color: #cbc8be;
+  color: white;
+  margin-top: 18px
+}
+
+.meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+
+.date {
+  /*display: inline-block;*/
+  font-family: "Josefin Sans";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.category {
+  font-family: "Josefin Sans";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.entry-title {
+  font-family: "Josefin Sans";
+  font-size: 26px;
+  margin-top: 35px;
+  margin-bottom: 16px;
+}
+
+.primary-txt {
+  font-size: 19px;
+  line-height: 32px;
+}
+
+#dino {
+  /*img.align-right */
+  float: right;
+  margin-left: 11px;
+  margin-top: -9px;
+  height: 250px;
+  width: 250px;
+  background-position: left;
+}
+
+#xx {
+  /*img.align-right */
+  float: right;
+  margin-left: 11px;
+  margin-top: 14px;
+  height: 250px;
+  width: 250px;
+  background-position: left;
+}
+
+#yacht {
+  /*img.align-right */
+  float: right;
+  margin-left: 11px;
+  margin-top: 14px;
+  height: 250px;
+  width: 250px;
+  background-position: left;
+}
+
+aside {
+  width: 350px;
+  height: 1175px;
+  padding: 21px;
+  background-color: #dbdbc8;
+  box-shadow: 0px 1px 2px 1px;
+  margin-left: 68px;
+  margin-top: -33px;
+}
+
+.auth-pic {
+  background-image:
+  url("../img/author.jpeg");
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  }
+  .aside-heading {
+  font-family: "Josefin Sans";
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 16px;
+  text-align: center;
+  }
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-color: grey;
+  border-width: 1px;
+}
+
+#bio {
+  margin-top: 23px;
+}
+footer {
+  /*margin: auto;*/
+  background-color: black;
+  height: 45px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 80px;
+  padding-top: 11px;
+}
